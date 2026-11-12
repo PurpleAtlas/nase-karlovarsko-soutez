@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zásady zpracování osobních údajů</title>
+<meta name="description" content="Zásady zpracování osobních údajů pro soutěž skupiny Naše Karlovarsko, kterou pořádá Karel Němeček.">
+<style>
+  :root {
+    --accent:#ff6a00;
+    --accent2:#b026ff;
+    --text:#f2f2f7;
+    --muted:#a9a9bc;
+    --bg:#0e0d14;
+    --card:#191826;
+    --line:#2c2a3d;
+    --ok:#7dffb0;
+  }
+  * { box-sizing:border-box; }
+  html { color-scheme: dark; }
+  body {
+    margin:0;
+    font-family: Georgia, "Times New Roman", serif;
+    background:var(--bg);
+    color:var(--text);
+    line-height:1.55;
+  }
+  a:focus-visible {
+    outline:2px solid var(--accent);
+    outline-offset:2px;
+  }
+  a { color:var(--accent); }
+  a:hover { color:#fff; }
+  header {
+    background:var(--bg);
+    padding:20px 20px 16px;
+    border-bottom:1px solid var(--line);
+  }
+  .header-inner {
+    max-width:920px;
+    margin:0 auto;
+    display:flex;
+    align-items:center;
+    gap:12px;
+  }
+  .badge {
+    width:52px;
+    height:52px;
+    border-radius:50%;
+    flex:none;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:800;
+    font-size:18px;
+    letter-spacing:.4px;
+    color:#fff;
+    background:radial-gradient(circle at 30% 28%, #3a2a18, #14131d 62%);
+    border:2px solid var(--accent);
+    box-shadow:0 0 0 2px rgba(176,38,255,.55), 0 0 16px rgba(255,106,0,.6), 0 0 28px rgba(176,38,255,.45);
+    text-shadow:0 0 8px rgba(255,106,0,.8);
+  }
+  .brand {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:700;
+    font-size:20px;
+    letter-spacing:.3px;
+    color:#fff;
+    line-height:1.2;
+  }
+  .org {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color:var(--muted);
+    margin-top:2px;
+  }
+  .org span { color:var(--accent2); text-shadow:0 0 10px rgba(176,38,255,.7); }
+  main { max-width:920px; margin:0 auto; padding:24px 20px 48px; }
+  .narrow { max-width:640px; margin-left:auto; margin-right:auto; }
+  .label {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    font-weight:700;
+    text-transform:uppercase;
+    color:var(--accent2);
+    text-shadow:0 0 8px rgba(176,38,255,.6);
+    letter-spacing:1px;
+    margin:0;
+  }
+  h1 { font-size:30px; line-height:1.2; margin:8px 0 18px; color:#fff; }
+  h1 .hl { color:var(--accent); text-shadow:0 0 12px rgba(255,106,0,.55); }
+  h2 { font-size:18px; margin:22px 0 8px; color:var(--accent); }
+  .card {
+    background:var(--card);
+    border:1px solid var(--line);
+    box-shadow:0 0 0 1px rgba(176,38,255,.15);
+    border-radius:8px;
+    padding:20px 24px 28px;
+    margin-bottom:20px;
+  }
+  .card p {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    margin:0 0 12px;
+  }
+  .back {
+    display:inline-block;
+    margin-top:10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:700;
+    text-decoration:none;
+    color:var(--accent);
+  }
+  .back:hover { color:#fff; }
+  footer {
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+    color:var(--muted);
+    padding:20px;
+    border-top:1px solid var(--line);
+  }
+  @media (max-width:480px) {
+    h1 { font-size:24px; }
+    .brand { font-size:18px; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="header-inner">
+    <div class="badge" aria-hidden="true">KN</div>
+    <div>
+      <div class="brand">Karel Němeček</div>
+      <div class="org">Admin skupiny <span>Naše Karlovarsko</span></div>
+    </div>
+  </div>
+</header>
+<main>
+  <article class="card narrow">
+    <p class="label">Ochrana osobních údajů</p>
+    <h1>Zásady zpracování <span class="hl">osobních údajů</span></h1>
+
+    <h2>Správce</h2>
+    <p>Správcem je Karel Němeček, IČO 01923757. Kontakt: <a href="mailto:100xlepsi@gmail.com">100xlepsi@gmail.com</a>.</p>
+
+    <h2>Jaké údaje zpracováváme</h2>
+    <p>Zpracováváme e-mail, který zadáte ve formuláři. Jde o soutěž o sluchátka Philips H2500 a o odběr informací o dalších soutěžích Naše Karlovarsko.</p>
+
+    <h2>Účel a právní základ</h2>
+    <p>Účelem soutěžního formuláře je účast v soutěži a kontakt výherce. Účelem druhého formuláře je zasílání informací o dalších soutěžích. Právní základ je souhlas podle čl. 6 odst. 1 písm. a GDPR. Souhlas potvrdíte potvrzovacím e-mailem (double opt-in).</p>
+
+    <h2>Kde se údaje ukládají</h2>
+    <p>Údaje ukládáme ve službě MailerLite, která je zpracovatelem. Údaje se nikomu dalšímu nepředávají a neprodávají.</p>
+
+    <h2>Jak dlouho je uchováváme</h2>
+    <p>E-maily ze soutěže o sluchátka se smažou po skončení soutěže a předání výhry. Odběr informací o dalších soutěžích trvá do odhlášení.</p>
+
+    <h2>Vaše práva</h2>
+    <p>Souhlas můžete odvolat. Z odběru se odhlásíte odkazem v každém e-mailu. Máte právo na přístup, opravu, výmaz, omezení zpracování, přenositelnost a námitku. Stížnost můžete podat u ÚOOÚ (<a href="https://www.uoou.cz" target="_blank" rel="noopener">www.uoou.cz</a>). Žádosti posílejte na <a href="mailto:100xlepsi@gmail.com">100xlepsi@gmail.com</a>.</p>
+
+    <h2>Meta</h2>
+    <p>Soutěž není sponzorovaná, podporovaná ani spravovaná společností Meta.</p>
+
+    <p>Tyto zásady platí od 12. 11. 2026.</p>
+    <p><a class="back" href="index.html">Zpět na soutěž</a></p>
+  </article>
+</main>
+<footer>
+  <p>Karel Němeček, admin skupiny Naše Karlovarsko</p>
+</footer>
+</body>
+</html>

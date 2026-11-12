@@ -403,6 +403,9 @@
   .signup button[type="submit"]:disabled { filter:grayscale(.15) brightness(.85); cursor:default; }
   .thanks { display:none; font-family:Arial, Helvetica, sans-serif; font-weight:700; color:var(--ok); margin-top:12px; }
   .form-error { display:none; font-family:Arial, Helvetica, sans-serif; font-weight:700; color:#ff8a8a; margin-top:12px; }
+  .legal-note { font-family:Arial, Helvetica, sans-serif; font-size:12px; color:var(--muted); margin:8px 0 12px; }
+  .legal-note a, .privacy a { color:var(--accent); }
+  .legal-note a:hover, .privacy a:hover { color:#fff; }
 
   /* Talismans */
   .steps {
@@ -987,6 +990,7 @@
         <input type="checkbox" id="consent" name="consent" required>
         <label for="consent">Souhlasím s tím, že skupina Naše Karlovarsko použije můj e-mail k vyhodnocení soutěže a k zasílání budoucích nabídek. Souhlas mohu kdykoli odvolat.</label>
       </div>
+      <p class="legal-note"><a href="zasady.html">Zásady zpracování osobních údajů</a></p>
       <button type="submit">Chci soutěžit</button>
       <div class="thanks">Díky. Poslali jsme vám potvrzovací e-mail. Po potvrzení jste zapojeni do soutěže. Držíme palce.</div>
       <div class="form-error" role="alert">Nepodařilo se odeslat, zkuste to prosím znovu.</div>
@@ -1096,6 +1100,7 @@
         <input type="checkbox" id="consent2" name="consent" required>
         <label for="consent2">Souhlasím s tím, že skupina Naše Karlovarsko použije můj e-mail k zasílání informací o dalších soutěžích a nabídkách. Souhlas mohu kdykoli odvolat.</label>
       </div>
+      <p class="legal-note"><a href="zasady.html">Zásady zpracování osobních údajů</a></p>
       <button type="submit">Chci vědět jako první</button>
       <div class="thanks">Paráda. Poslali jsme vám potvrzovací e-mail. Až ho potvrdíte a budeme vědět, o co se soutěží, dáme vám vědět.</div>
       <div class="form-error" role="alert">Nepodařilo se odeslat, zkuste to prosím znovu.</div>
@@ -1165,7 +1170,7 @@
     </div>
   </section>
 
-  <p class="privacy narrow">Ochrana osobních údajů: Váš e-mail použijeme k vyhodnocení soutěže a k zasílání budoucích nabídek od skupiny Naše Karlovarsko. Nikomu dalšímu ho nepředáme a z odběru se můžete kdykoli odhlásit. <span class="ph">[Doplňte odkaz na zásady zpracování osobních údajů.]</span></p>
+  <p class="privacy narrow">Ochrana osobních údajů: Váš e-mail použijeme k vyhodnocení soutěže a k zasílání budoucích nabídek od skupiny Naše Karlovarsko. Nikomu dalšímu ho nepředáme a z odběru se můžete kdykoli odhlásit. <a href="zasady.html">Zásady zpracování osobních údajů</a></p>
 
   <section class="connect" id="spojit">
     <h2>Chcete se se mnou spojit?</h2>
